@@ -1,0 +1,39 @@
+name: yep_lite_local_guide
+description: "A local guide & review Flutter app."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.7.2 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  flutter_rating_bar: ^4.0.0
+  carousel_slider: ^5.0.0
+  image_picker: ^1.1.2
+  firebase_core: ^4.1.1
+  firebase_auth: ^6.1.0
+  cloud_firestore: ^6.0.2
+  firebase_storage: ^13.0.2
+  google_maps_flutter: ^2.13.1
+  google_sign_in: ^6.2.1
+  shimmer: ^3.0.0
+  cached_network_image: ^3.3.1
+  url_launcher: ^6.3.1
+  geolocator: ^14.0.2
+  share_plus: ^7.2.1
+  photo_view: ^0.14.0 # For zoomable fullscreen images
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: 5.0.0
+  fake_cloud_firestore: ^4.0.0
+  firebase_auth_mocks: ^0.15.1
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/google_logo.png
